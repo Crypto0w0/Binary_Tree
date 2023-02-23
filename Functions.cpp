@@ -1,6 +1,4 @@
-#include <conio.h>
 #include <iostream>
-
 #include "Functions.h"
 
 using namespace std;
@@ -33,7 +31,7 @@ void Print(const Tree& tree)
 
     tree.Print(tree.GetRoot());
 
-    _getch();
+    cin.get();
 }
 
 void PrintMenu()
@@ -77,5 +75,5 @@ void Search(const Tree& tree)
         cout << "Student not found" << endl;
     }
 
-    _getch();
+    cin.get();
 }
