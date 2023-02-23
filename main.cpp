@@ -1,4 +1,3 @@
-#include <conio.h>
 #include <iostream>
 
 #include "Functions.h"
@@ -20,7 +19,8 @@ int main()
     {
         PrintMenu();
 
-        int choice = _getch();
+        int choice;
+        cin >> choice;
 
         switch (choice)
         {
